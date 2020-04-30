@@ -47,7 +47,7 @@ Here are a few initial tests we are expecting from your class. The way the class
 
 2) Assuming it is Monday the 15th of September at 3pm:
 
-    ```
+    ```ruby
     > PickupService.perform("2pm")
     [
         {:date=>Tue, 16 Sep 2014, :description=>"Tomorrow"},
